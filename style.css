@@ -1,0 +1,162 @@
+html{
+    font-size: 16px;
+}
+ody{
+    margin: 0;
+    padding: 0;
+    line-height: 1.45;
+    font-family: serif;
+}
+header{
+    color: #FFFFFF;
+    background-color: #284b63;
+    padding: 80px 0;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    margin: 0 0 16px 0;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0 0 16px 0;
+}
+.container{
+    max-width: 900px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+}
+.btn{
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #549da0;
+    text-decoration: none;
+    padding: 12px 16px;
+    text-transform: capitalize;
+}
+a:hover{
+    background: #468489;
+}
+section{
+    padding: 40px 0;
+    text-align: center;
+}
+.features{
+    background-color: #549da0;
+    color: #FFFFFF;
+}
+.feature{
+    width: 32%;
+    font-size: 18px;
+    display: inline-block;
+}
+.feature img{
+    width: 40%;
+}
+.quote{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+blockquote{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+blockquote p{
+    margin: 0 0 5px 0;
+    font-size: 24px;
+}
+blockquote cite{
+    font-size: 16px;
+    font-style: italic;
+}
+blockquote cite::before{
+    content: '-';
+    margin-right: 5px;
+}
+footer{
+    background: #353535;
+    padding: 32px 0;
+    text-align: center;
+    color: #868686;
+    font-size: 12px;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer li{
+    display: inline-block;
+}
+footer li a{
+    padding: 6px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #c3c3c3;
+}
+footer li a:hover{
+    color: white;
+}
+@media screen and (max-width: 480px){
+    .btn{
+        display: block;
+        font-size: 18px;
+    }
+    h1{
+        font-size: 32px;
+        margin: 0 0 8px 0;
+    }
+    h2{
+        font-size: 18px;
+    }
+    section{
+        padding: 25px 0 15px 0;
+    }
+    .feature{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        text-align: right;
+        margin: 0 0 10px 0;
+    }
+    .feature img{
+        width: 15%;
+        min-width: 16px;
+        margin-right: 20px;
+    }
+    .quote{
+        pad: 30px 0;
+    }
+    blockquote p{
+        font-size: 18px;
+    }
+    blockquote cite{
+        font-size: 14px;
+    }
+    footer{
+        padding: 30px 0 10px 0;
+    }
+    footer li{
+        display: block;
+        margin: 5px 0;
+    }
+    body{
+        font-size: 16px;
+    }
+    p{
+        font-size: 1.5em;
+    }
+   
+    h1{
+        font-size: 3rem;
+
+    }
+}
